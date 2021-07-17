@@ -1,0 +1,9 @@
+1) virtualenv venv
+
+2) venv/scripts/activate
+
+3) pip install pymongo fastapi uvicorn
+
+4) uvicorn index:app --reload
+
+5) http://127.0.0.1:8000/docs
